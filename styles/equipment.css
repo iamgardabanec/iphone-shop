@@ -1,0 +1,42 @@
+.equipment {
+  padding-block: 330px;
+}
+
+.equipment-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.equipment-wrapper-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: min(4.23vw, 64px);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.equipment-wrapper-subtitle {
+  max-width: 967px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: var(--size-description);
+  line-height: 1.57;
+}
+
+.equipment-wrapper-button {
+  padding-bottom: 80px;
+
+  border: none;
+
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.57;
+  text-decoration: none;
+  background: url(../icons/arrow.svg) center no-repeat;
+}

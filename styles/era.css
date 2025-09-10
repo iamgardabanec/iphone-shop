@@ -1,0 +1,36 @@
+.era {
+  padding-top: 111px;
+  background-color: var(--color-dark);
+}
+
+.era-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.era-wrapper-title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: min(9.26vw, 140px);
+  line-height: 1;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: var(--color-light);
+}
+
+.era-wrapper-subtitle {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: min(2.38vw, 36px);
+  margin-bottom: 62px;
+  line-height: 1;
+  color: var(--color-light);
+}
+
+.era-wrapper-image {
+  margin-bottom: -15em;
+  max-width: 1299px;
+  width: 100%;
+  height: auto;
+}

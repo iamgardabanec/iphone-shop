@@ -1,0 +1,49 @@
+.order-inner {
+  padding-block: 93px;
+
+  display: flex;
+  column-gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-wrapper-description {
+  max-width: 419px;
+  margin-bottom: 32px;
+
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: var(--size-description-two);
+  line-height: 1;
+  color: #727272;
+}
+
+.order-form {
+  position: relative;
+}
+
+.order-form-input {
+  width: 100%;
+
+  border: 1.5px solid #c8c8c8;
+  border-radius: 32px;
+
+  padding-block: 24px;
+  padding-inline: 24px 8px;
+}
+
+.order-form-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  border-radius: 32px;
+  padding: 16px 24px;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}

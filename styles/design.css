@@ -1,0 +1,53 @@
+.design {
+  padding-top: 60px;
+  padding-bottom: 100px;
+
+  background-color: var(--color-dark-alternate);
+}
+
+.design-iphone {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 156px 165px 168px 155px;
+  margin-top: -230px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: url(../images/iPhone_13.svg) center / contain no-repeat;
+}
+
+.design-iphone-title {
+  max-width: 811px;
+  margin-bottom: 60px;
+
+  color: var(--color-light);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: min(3.67vw, var(--size-title));
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.design-iphone-subtitle {
+  margin-bottom: 30px;
+
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: min(36px, 2.75vw);
+  line-height: 1.57;
+  text-align: center;
+  color: var(--color-light);
+}
+
+.design-iphone-text {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: var(--size-description);
+  line-height: 1.25;
+  text-align: center;
+  color: var(--color-gray);
+}
